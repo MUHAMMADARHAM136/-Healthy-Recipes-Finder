@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Recipes Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Healthy Recipes Finder</h1>
+    </header>
+    <main>
+        <section id="search-section">
+            <h2>Find Your Recipe</h2>
+            <input type="text" id="ingredient-input" placeholder="Enter ingredients (e.g., chicken, broccoli)">
+            <select id="diet-select">
+                <option value="">Any Diet</option>
+                <option value="vegan">Vegan</option>
+                <option value="keto">Keto</option>
+                <option value="gluten-free">Gluten-Free</option>
+            </select>
+            <select id="meal-type-select">
+                <option value="">Any Meal</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+            </select>
+            <button id="search-button">Search</button>
+        </section>
+
+        <section id="recipe-results">
+            <h2>Recipes</h2>
+            <div id="recipes-container"></div>
+        </section>
+
+        <section id="meal-planner">
+            <h2>Weekly Meal Planner</h2>
+            <div id="planner-grid">
+                <div class="day-column" id="monday">Monday</div>
+                <div class="day-column" id="tuesday">Tuesday</div>
+                <div class="day-column" id="wednesday">Wednesday</div>
+                <div class="day-column" id="thursday">Thursday</div>
+                <div class="day-column" id="friday">Friday</div>
+                <div class="day-column" id="saturday">Saturday</div>
+                <div class="day-column" id="sunday">Sunday</div>
+            </div>
+            <button id="export-button">Export Meal Plan</button>
+        </section>
+        
+    </main>
+    <footer>
+        <p>© 2024 Healthy Recipes Finder</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

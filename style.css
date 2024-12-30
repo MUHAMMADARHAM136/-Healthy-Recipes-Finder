@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4caf50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+#search-section, #recipe-results, #meal-planner {
+    margin-bottom: 2rem;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#planner-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.day-column {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-height: 200px;
+    text-align: center;
+}
+
+.day-column h3 {
+    background: #4caf50;
+    color: white;
+    margin: 0 -10px 10px;
+    padding: 5px;
+}
+
+.recipe-card {
+    cursor: grab;
+    margin: 5px 0;
+    background: #e8f5e9;
+    padding: 10px;
+    border-radius: 5px;
+}

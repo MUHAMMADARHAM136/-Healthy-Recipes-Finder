@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Vegan Salad",
+        "calories": 150,
+        "ingredients": ["lettuce", "tomato", "cucumber"],
+        "diet": "vegan",
+        "mealType": "lunch"
+    },
+    {
+        "id": 2,
+        "name": "Keto Breakfast Omelette",
+        "calories": 300,
+        "ingredients": ["eggs", "cheese", "spinach"],
+        "diet": "keto",
+        "mealType": "breakfast"
+    }
+]
